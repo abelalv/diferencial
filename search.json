@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Clases de cálculo diferencial",
+    "section": "",
+    "text": "Estas son las notas de clase realizadas por el porfesor Alvarez, su objetivo es ayudar al estudiante a tener un mejor entendimiento de los temas vistos en clase. En ningún momento constituyen un texto guía o un material de estudio oficial."
+  },
+  {
+    "objectID": "presentacion.html",
+    "href": "presentacion.html",
+    "title": "Cálculo diferencial",
+    "section": "",
+    "text": "El cálculo diferencial se centra en entender cómo las cantidades cambian en función de pequeñas variaciones en otras cantidades relacionadas. Permite calcular la tasa de cambio instantánea de una función en un punto dado."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Segundo semestre de 2023",
+    "section": "",
+    "text": "Algunas notas de clase del segundo semestre de 2023."
+  },
+  {
+    "objectID": "presentacion.html#una-pequeña-mirada-general",
+    "href": "presentacion.html#una-pequeña-mirada-general",
+    "title": "Cálculo diferencial",
+    "section": "Una pequeña mirada general",
+    "text": "Una pequeña mirada general\nEl cálculo diferencial se centra en entender cómo las cantidades cambian en función de pequeñas variaciones en otras cantidades relacionadas. Permite calcular la tasa de cambio instantánea de una función en un punto dado."
+  }
+]
