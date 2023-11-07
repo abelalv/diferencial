@@ -26,5 +26,103 @@
     "title": "Cálculo diferencial",
     "section": "Una pequeña mirada general",
     "text": "Una pequeña mirada general\nEl cálculo diferencial se centra en entender cómo las cantidades cambian en función de pequeñas variaciones en otras cantidades relacionadas. Permite calcular la tasa de cambio instantánea de una función en un punto dado."
+  },
+  {
+    "objectID": "derivadas.html#teorema-de-la-regla-de-la-cadena",
+    "href": "derivadas.html#teorema-de-la-regla-de-la-cadena",
+    "title": "Calculo de Derivadas",
+    "section": "Teorema de la regla de la cadena",
+    "text": "Teorema de la regla de la cadena\nSea \\(f(x)=g(h(x))\\), donde \\(g\\) y \\(h\\) son funciones diferenciables, entonces la derivada de \\(f\\) esta dada por \\[f'(x)=g'(h(x))h'(x)\\] Este teorema tambien se puede expresar usando la notación de Leibniz como \\[\\frac{dy}{dx}=\\frac{dy}{du}\\frac{du}{dx}\\]"
+  },
+  {
+    "objectID": "continuidad.html",
+    "href": "continuidad.html",
+    "title": "Límites",
+    "section": "",
+    "text": "Defición de una función continua\nSe dice que \\(f\\) es continua en \\(a\\) si se cumple que: \\[\\lim_{x\\to a}f(x)=f(a)\\]\n\nDefinición de una función continua en un intervalo \\([a,b]\\) si es continua en todo punto del intervalo.\nEjemplo: \\(f(x)=x^2\\) es continua en \\([0,1]\\)\n\nLímites de funcines trigo nometricas| ||||||||||||||||||||||||||||||"
+  },
+  {
+    "objectID": "taller1.html",
+    "href": "taller1.html",
+    "title": "Calculo de Derivadas",
+    "section": "",
+    "text": "Taller cálculo de derivadas Universidad Javeriana Cali\nEncontrar las derivadas de las siguientes funciones:\n\n\\(f(x)=x^2+3x-1\\)\n\\(f(x)=\\frac{1}{x}\\)\n\\(f(x)=\\frac{1}{x^2}\\)\n\\(f(x)=(x^3-4x+2)\\frac{1}{x^3}\\)\n\\(f(x)=\\frac{x^3+4}{x^2+1}\\)\n\\(f(x)=\\frac{\\sqrt{x^3}}{x^3+4}\\)\n\\(f(x)=(x^4-5)(x^{100}+100x-5)\\)\nSuponga que \\(a\\) y \\(b\\) son constantes, encuentre la derivada de \\(f(x)=ax^2+bx\\) con recpecto a \\(x\\).\n\\(f(x)=|x^3|\\)\n$f(x)=|x+3|\nGráfique la función \\(f(x)=x^2+3x-1\\) y su derivada en mismo plano cartesiano,\n\n\nEn que punto tiene la sunción un punto máximo, que relación tiene la derivada en ese punto.\nNote en que intervalo la función es creciente, que relación tiene la derivada en ese mismo intervalo.\nNote en que intervalola función es decreciente, que relación tiene la derivada en ese mismo intervalo.\n\n\nEscriba que es una función difernciable en un punto, y que es una función continua en un punto.\nSi una función es continua en un punto entonces es diferenciable en ese punto, ¿es cierta esta afirmación?, justifique su respuesta.\nSí una función es diferenciable en un punto entoces es continua en ese punto, ¿es cierta esta afirmación?, justifique su respuesta."
+  },
+  {
+    "objectID": "función_inv.html#teorema-de-la-función-inversa",
+    "href": "función_inv.html#teorema-de-la-función-inversa",
+    "title": "Límites",
+    "section": "Teorema de la Función Inversa",
+    "text": "Teorema de la Función Inversa\nEl teorema de la función inversa establece condiciones para que una función sea invertible y cómo calcular su derivada.\nTeorema de la Función Inversa Sea \\(f(x)\\) una función continua y derivable en un intervalo \\(I\\) y \\(f'(x)\\) es distinta de cero en algún punto de \\(I\\). Si \\(f\\) es biyectiva en \\(I\\), entonces su función inversa \\(f^{-1}(x)\\) es derivable en el intervalo \\(J\\), y su derivada está dada por: \\[\n(f^{-1})'(x) = \\frac{1}{f'(f^{-1}(x))}\\]"
+  },
+  {
+    "objectID": "función_inv.html#derivada-de-la-función-inversa-de-lnx",
+    "href": "función_inv.html#derivada-de-la-función-inversa-de-lnx",
+    "title": "Límites",
+    "section": "Derivada de la función inversa de \\(\\ln(x)\\)",
+    "text": "Derivada de la función inversa de \\(\\ln(x)\\)\nDada la función \\(f(x) = \\ln(x)\\) para \\(x > 0\\), calculemos la derivada de su función inversa. \\[\\begin{align*}\nf(x) &= \\ln(x) \\\\\n(f^{-1})'(x) &= \\frac{1}{f'(f^{-1}(x))} \\\\\n(f^{-1})'(x) &= \\frac{1}{\\frac{1}{f^{-1}(x)}} \\\\\n(f^{-1})'(x) &= \\frac{1}{\\frac{1}{x}} \\\\\n(f^{-1})'(x) &= x\n\\end{align*}\\]"
+  },
+  {
+    "objectID": "función_inv.html#derivada-de-la-función-inversa-de-sinx",
+    "href": "función_inv.html#derivada-de-la-función-inversa-de-sinx",
+    "title": "Límites",
+    "section": "Derivada de la función inversa de \\(\\sin(x)\\)",
+    "text": "Derivada de la función inversa de \\(\\sin(x)\\)\nDada la función \\(f(x) = \\sin(x)\\) para \\(-\\frac{\\pi}{2} < x < \\frac{\\pi}{2}\\), calculemos la derivada de su función inversa en el punto \\(x = \\frac{\\pi}{4}\\). \\[\\begin{align*}\nf(x) &= \\sin(x) \\\\\n(f^{-1})'(x) &= \\frac{1}{f'(f^{-1}(x))} \\\\\n(f^{-1})'(\\frac{\\pi}{4}) &= \\frac{1}{\\cos(\\frac{\\pi}{4})} \\\\\n(f^{-1})'(\\frac{\\pi}{4}) &= \\frac{1}{\\frac{\\sqrt{2}}{2}} = \\sqrt{2}\n\\end{align*}\\]"
+  },
+  {
+    "objectID": "función_inv.html#ejemplo",
+    "href": "función_inv.html#ejemplo",
+    "title": "Límites",
+    "section": "Ejemplo",
+    "text": "Ejemplo\nDerivar implícitamente la siguiente función\n\\[x^2 + y^2 = 1\\] \\[\\frac{d}{dx}(x^2 + y^2) = \\frac{d}{dx}(1)\\] \\[\\frac{d}{dx}(x^2) + \\frac{d}{dx}(y^2) = 0\\] \\[2x + 2y\\frac{dy}{dx} = 0\\]"
+  },
+  {
+    "objectID": "función_inv.html#ejercicios",
+    "href": "función_inv.html#ejercicios",
+    "title": "Límites",
+    "section": "Ejercicios",
+    "text": "Ejercicios\nDerivar implícitamente las siguientes funciones y despejar \\(\\frac{dy}{dx}\\)\n\n\\(x^2 + xy^2 = 1\\)\n\\(3xy+\\cos(y) = 0\\)\n\\(x\\tan(y) = 1\\)"
+  },
+  {
+    "objectID": "función_inv.html#problemas",
+    "href": "función_inv.html#problemas",
+    "title": "Límites",
+    "section": "Problemas",
+    "text": "Problemas\n\nCalcular la pendiente de la recta tangente a la gráﬁca de \\[x^2 +4y^2= 4\\] y en el punto \\((\\sqrt{2},- 1/\\sqrt{2})\\)"
+  },
+  {
+    "objectID": "función_inv.html#demostración",
+    "href": "función_inv.html#demostración",
+    "title": "Límites",
+    "section": "Demostración",
+    "text": "Demostración\n\\[f(f^{-1}(x)) = x\\] Derivando ambos lados de la ecuación con respecto a \\(x\\): \\[\\begin{align*}\nf'(f^{-1}(x)) \\cdot (f^{-1})'(x) &= 1 \\\\\n(f^{-1})'(x) &= \\frac{1}{f'(f^{-1}(x))}\n\\end{align*}\\]"
+  },
+  {
+    "objectID": "función_inv.html#problemas-1",
+    "href": "función_inv.html#problemas-1",
+    "title": "Límites",
+    "section": "Problemas",
+    "text": "Problemas\nUna mujer conduce hacia una señal en la carretera como muestra la figura, Sea \\(\\theta\\) el ángulo de visión de l la señal y sea \\(x\\) la distancia (medidas en pies)a esa señal + Si el nivel de los ojos esta a 4 pies de la carretera, demuestre que\n\\[\\tan\\theta = \\frac{4x}{x^2+252}\\]\n\nEncuentre la razón de cambio de v con respecto a x\n¿A qué distancia se cumple que la razón del inciso anterior es igual a 9?"
+  },
+  {
+    "objectID": "función_inv.html#section",
+    "href": "función_inv.html#section",
+    "title": "Límites",
+    "section": "",
+    "text": "# Derivación de la Función Inversa con Ejemplos ## Teorema de la Función Inversa\nEl teorema de la función inversa establece condiciones para que una función sea invertible y cómo calcular su derivada.\nTeorema de la Función Inversa Sea \\(f(x)\\) una función continua y derivable en un intervalo \\(I\\) y \\(f'(x)\\) es distinta de cero en algún punto de \\(I\\). Si \\(f\\) es biyectiva en \\(I\\), entonces su función inversa \\(f^{-1}(x)\\) es derivable en el intervalo \\(J\\), y su derivada está dada por: \\[\n(f^{-1})'(x) = \\frac{1}{f'(f^{-1}(x))}\\]"
+  },
+  {
+    "objectID": "razonamiento_cambio.html#gráfica",
+    "href": "razonamiento_cambio.html#gráfica",
+    "title": "Razón de cambio",
+    "section": "Gráfica",
+    "text": "Gráfica"
+  },
+  {
+    "objectID": "razonamiento_cambio.html#ejemplo-2",
+    "href": "razonamiento_cambio.html#ejemplo-2",
+    "title": "Razón de cambio",
+    "section": "Ejemplo 2",
+    "text": "Ejemplo 2\nEl motor que se muestra en la figura, una varilla de 7 inch esta conectada a un cigüeñal de 3 inch de radio, que gira en sentido contrario a las manecillas del reloj a una velocidad constante de 200 rpm. Calcule la velocidad del pistón cuando \\(\\theta=\\pi/3\\)"
   }
 ]

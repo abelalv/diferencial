@@ -9,7 +9,7 @@
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.2.335">
 
-  <title>clases - Cálculo diferencial</title>
+  <title>clases - Razón de cambio</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -323,119 +323,31 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Cálculo diferencial</h1>
+  <h1 class="title">Razón de cambio</h1>
 
 <div class="quarto-title-authors">
 </div>
 
 </section>
-<section id="una-pequeña-mirada-general" class="slide level2">
-<h2>Una pequeña mirada general</h2>
-<p>El cálculo diferencial se centra en entender cómo las cantidades cambian en función de pequeñas variaciones en otras cantidades relacionadas. Permite calcular la tasa de cambio instantánea de una función en un punto dado.</p>
+<section class="slide level2">
+
+<p>La cámara de televisión, situada a ras del suelo, está dilmando el despegue de un transbordador espcial, que se mueve verticalmente hacia arriba, con la ecuación de posición <span class="math display">\[s=50t^2\]</span></p>
+<p>donde <span class="math inline">\(s\)</span> se mide en pies y <span class="math inline">\(t\)</span> en segundos. La cámara está situada a 2000 pies del punto de despegue.</p>
+<p>Calcular la razón de cambio de cambio del ángulo de elevación <span class="math inline">\(\theta\)</span> de la cámara que se muestra en la figura, diez segundos después del despegue</p>
 </section>
-<section id="concepto-de-límite" class="title-slide slide level1 center">
-<h1>Concepto de límite</h1>
-<ul>
-<li>Concepto intuitivo</li>
-<li>Concepto formal</li>
-</ul>
+<section id="gráfica" class="slide level2">
+<h2>Gráfica</h2>
+
+<img data-src="graficas/razon1.png" class="r-stretch"></section>
+<section id="ejemplo-2" class="slide level2">
+<h2>Ejemplo 2</h2>
+<p>El motor que se muestra en la figura, una varilla de 7 inch esta conectada a un cigüeñal de 3 inch de radio, que gira en sentido contrario a las manecillas del reloj a una velocidad constante de 200 rpm. Calcule la velocidad del pistón cuando <span class="math inline">\(\theta=\pi/3\)</span></p>
 </section>
+<section id="section" class="slide level2">
+<h2></h2>
 
-<section id="concepto-intuitivo" class="title-slide slide level1 center">
-<h1>Concepto intuitivo</h1>
 
-<img data-src="graficas/limite.png" class="r-stretch quarto-figure-center"><p class="caption">Concepto informal</p><p><a href="https://www.geogebra.org/classic/gsxQhEej">Un ejemplo en geogebra</a></p>
-</section>
-
-<section id="concepto-formal" class="title-slide slide level1 center">
-<h1>Concepto formal</h1>
-<p>Una función <span class="math inline">\(f(x)\)</span> cuando <span class="math inline">\(x\)</span> tiende a <span class="math inline">\(c\)</span> es igual a <span class="math inline">\(L\)</span> se expresa de la siguiente manera:</p>
-<p><span class="math display">\[lim_{{x \to c}} f(x) = L\]</span></p>
-<p>si para cualquier número positivo <span class="math inline">\(\varepsilon\)</span>, por pequeño que sea, existe un número positivo <span class="math inline">\(\delta\)</span> tal que cuando <span class="math inline">\(0 &lt; |x - c| &lt; \delta\)</span>, entonces <span class="math inline">\(|f(x) - L| &lt; \varepsilon\)</span>.</p>
-</section>
-
-<section id="section" class="title-slide slide level1 center">
-<h1></h1>
-
-<img data-src="graficas/limite_for.png" class="r-stretch quarto-figure-center"><p class="caption">Concepto formal</p></section>
-
-<section id="section-1" class="title-slide slide level1 center">
-<h1></h1>
-<p><a href="https://www-ebooks7--24-com.us1.proxy.openathens.net/stage.aspx?il=&amp;pg=&amp;ed=">ejercicios pag 74 1-11 y pagina 75 ejercicio exploratorios 1-2</a></p>
-</section>
-
-<section id="cálcular-límites" class="title-slide slide level1 center">
-<h1>Cálcular límites</h1>
-<ul>
-<li>Propiedades de los límites</li>
-<li>Límites de funciones polinómicas</li>
-<li>Límites de funciones racionales</li>
-<li>Límites de funciones irracionales</li>
-<li>Límites de funciones trigonométricas</li>
-</ul>
-</section>
-
-<section id="propiedades-de-los-límites" class="title-slide slide level1 center">
-<h1>Propiedades de los límites</h1>
-<ul>
-<li><p>Limite de una constante Sea <span class="math inline">\(f(x)=c\)</span> un número real, entonces <span class="math display">\[\lim_{x \to c} c = c\]</span></p></li>
-<li><p>Suma de límites Sea <span class="math inline">\(f(x)\)</span> y <span class="math inline">\(g(x)\)</span> dos funciones y <span class="math inline">\(c\)</span> un número real en el dominio de las funciones, entonces: si <span class="math inline">\(\lim_{x \to c} f(x) = L\)</span> y <span class="math inline">\(\lim_{x \to c} g(x) = M\)</span> entonces <span class="math display">\[\lim_{x \to c} (f(x) + g(x)) = L + M\]</span></p></li>
-</ul>
-</section>
-
-<section id="section-2" class="title-slide slide level1 center">
-<h1></h1>
-<ul>
-<li>Producto de límites</li>
-</ul>
-<p>Sea <span class="math inline">\(f(x)\)</span> y <span class="math inline">\(g(x)\)</span> dos funciones y <span class="math inline">\(c\)</span> un número real en el dominio de las funciones, entonces: si <span class="math inline">\(\lim_{x \to c} f(x) = L\)</span> y <span class="math inline">\(\lim_{x \to c} g(x) = M\)</span> entonces <span class="math display">\[\lim_{x \to c} (f(x) \cdot g(x)) = L \cdot M\]</span></p>
-</section>
-
-<section id="section-3" class="title-slide slide level1 center">
-<h1></h1>
-<ul>
-<li>Cociente de límites</li>
-</ul>
-<p>Sea <span class="math inline">\(f(x)\)</span> y <span class="math inline">\(g(x)\)</span> dos funciones y <span class="math inline">\(c\)</span> un número real en el dominio de las funciones, entonces: si <span class="math inline">\(\lim_{x \to c} f(x) = L\)</span> y <span class="math inline">\(\lim_{x \to c} g(x) = M\)</span> y <span class="math inline">\(M \neq 0\)</span> entonces <span class="math display">\[\lim_{x \to c} \frac{f(x)}{g(x)} = \frac{L}{M}\]</span></p>
-</section>
-
-<section id="section-4" class="title-slide slide level1 center">
-<h1></h1>
-
-</section>
-
-<section id="límites-de-funciones-polinómicas" class="title-slide slide level1 center">
-<h1>Límites de funciones polinómicas</h1>
-<p>Si <span class="math inline">\(f\)</span> es una función polinómica, entonces <span class="math display">\[\lim_{x \to c} f(x) = f(c)\]</span></p>
-</section>
-
-<section id="límites-de-funciones-racionales" class="title-slide slide level1 center">
-<h1>Límites de funciones racionales</h1>
-<ul>
-<li>Ejemplo</li>
-</ul>
-<p><span class="math display">\[ \lim_{x\to 1}\frac{x^2 - 1}{x - 1}\]</span></p>
-<p>¿Podemos usar el teorema de límites de funciones racionales?</p>
-</section>
-
-<section id="límites-de-funciones-especiales" class="title-slide slide level1 center">
-<h1>Límites de funciones especiales</h1>
-<ul>
-<li><p><span class="math inline">\(\lim_{x\to c}\cos x=\cos a\)</span></p></li>
-<li><p><span class="math inline">\(\lim_{x\to c}\sin x=\sin a\)</span></p></li>
-<li><p><span class="math inline">\(\lim_{x\to c}\tan x=\tan a\)</span> si <span class="math inline">\(c \neq \frac{\pi}{2} + k\pi\)</span> ¿por que?</p></li>
-<li><p><span class="math inline">\(\lim_{x\to c}\ln x=\ln a\)</span> si <span class="math inline">\(c &gt; 0\)</span></p></li>
-<li><p><span class="math inline">\(\lim_{x\to c}e^x=e^a\)</span></p></li>
-</ul>
-</section>
-
-<section id="ejercicios-de-límites" class="title-slide slide level1 center">
-<h1>Ejercicios de límites</h1>
-<ul>
-<li><a href="https://www-ebooks7--24-com.us1.proxy.openathens.net/stage.aspx?il=&amp;pg=&amp;ed=">Ejercicios 1-66 pag 82 y aplicaciones</a></li>
-</ul>
-
-<div class="footer footer-default">
+<img data-src="graficas/razon2.png" class="r-stretch"><div class="footer footer-default">
 
 </div>
 </section>
